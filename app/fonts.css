@@ -2,3 +2,6 @@
   --font-serif: "Times New Roman", Georgia, serif;
   --font-sans: "Pretendard", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 }
+
+.texture h2.text-4xl.font-light.leading-snug { font-weight: 300; line-height: 1.2; }
+.texture h2 .font-medium { font-weight: 500; }

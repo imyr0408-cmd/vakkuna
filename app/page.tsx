@@ -52,7 +52,10 @@ export default function Home() {
         <div className="textureImage"><Image src="/images/texture.svg" alt="부드럽고 풍부한 크림 텍스처" fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
         <div className="textureCopy">
           <p className="eyebrow">RICH, YET BREATHABLE</p>
-          <h2>포근하게 감싸고<br />가볍게 숨 쉬는</h2>
+          <h2 className="text-4xl font-light leading-snug">
+            포근하게 감싸고<br />
+            <span className="font-medium">가볍게 숨 쉬는</span>
+          </h2>
           <p>풍부한 영양감의 크림이 피부 온도에 부드럽게 녹아듭니다. 피부 위에 얇고 유연한 보습막을 형성해 매끄러운 윤기만 남깁니다.</p>
           <div className="tags"><span>깊은 보습</span><span>장벽 케어</span><span>윤기 개선</span></div>
         </div>
